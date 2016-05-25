@@ -40,7 +40,7 @@ canon = [
   [:d5, {release: 2, sleep: 1}],
   [[:d5, :d5, :e5, :d5, :cs5], {release: 0.6, sleep: 0.3}],
   [[:b, :d5], {release: 3.0, sleep: 1.5}],
-  [[:d5, :cs55, :b, :cs5], {release: 0.6, sleep: 0.3}],
+  [[:d5, :cs5, :b, :cs5], {release: 0.6, sleep: 0.3}],
   [:a, {release: 2.0, sleep: 1.0}],
   [:a, {release: 0.6, sleep: 0.3}],
   [:d5, {release: 6.0, sleep: 3.0}]
