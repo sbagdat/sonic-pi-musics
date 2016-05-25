@@ -36,7 +36,7 @@ parca = [
   [:d5],
   [[:d, :cs, :d], {release: 0.5, sleep: 0.2}],
   [[:b, :a]],
-  [:g,  {release: 3, sleep: 1.5}],
+  [:g,  {release: 3.0, sleep: 1.5}],
   [[:b3, :as3, :b3], {release: 0.5, sleep: 0.2}],
   [[:fs, :b3]],
   [:b,  {release: 0.75, sleep: 0.4}],
@@ -52,13 +52,13 @@ parca = [
   [:fs, {release: 0.75, sleep: 0.4}],
   [:e,  {release: 0.25, sleep: 0.1}],
   [[:b, :b3]],
-  [:e,  {release: 3, sleep: 1.5}]
+  [:e,  {release: 3.0, sleep: 1.5}]
 ]
 
 # notaları çalmak için kullandığımız ana metot
 define :play_notes do |notes_array|
   # release ve sleep için değer belirtilmemişse bu değerler kullanılacak
-  default_release = 1
+  default_release = 1.0
   default_sleep = 0.5
   # her bir nota dizisi için
   notes_array.each do |note|
